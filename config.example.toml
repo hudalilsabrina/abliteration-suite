@@ -1,0 +1,30 @@
+[app]
+base_url = "https://abliteration.ai"
+api_base_url = "https://api.abliteration.ai"
+signup_url = "https://abliteration.ai/sign-up"
+signin_url = "https://abliteration.ai/sign-in"
+console_url = "https://abliteration.ai/console"
+apikeys_url = "https://abliteration.ai/console/api-keys"
+
+[models]
+flagship = "abliterated-model-large-v2"
+models = [
+    "abliterated-model-large-v2",
+    "abliterated-model-large",
+    "abliterated-model"
+]
+
+[nine_router]
+url = "http://127.0.0.1:20127"
+provider_name = "abliteration"
+
+[browser]
+headless = true
+timeout = 35
+turnstile_sitekey = "0x4AAAAAAEcO2qYYBE_ztENL"
+display = ":99"
+
+[storage]
+data_dir = "data"
+accounts_json = "data/accounts.json"
+keys_txt = "data/keys.txt"
